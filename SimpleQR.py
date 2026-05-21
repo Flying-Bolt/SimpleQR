@@ -224,9 +224,7 @@ class QRCodeGeneratorApp:
         except Exception as e:
             messagebox.showerror(
                 "Fehler",
-                f"QR-Code konnte nicht erzeugt werden:
-
-{e}"
+                f"QR-Code konnte nicht erzeugt werden:\n\n{e}"
             )
 
     def save_qr(self):
@@ -256,17 +254,13 @@ class QRCodeGeneratorApp:
             self.status_var.set(f"Gespeichert: {os.path.basename(file_path)}")
             messagebox.showinfo(
                 "Erfolgreich gespeichert",
-                f"QR-Code wurde gespeichert:
-
-{file_path}"
+                f"QR-Code wurde gespeichert:\n\n{file_path}"
             )
 
         except Exception as e:
             messagebox.showerror(
                 "Speicherfehler",
-                f"Datei konnte nicht gespeichert werden:
-
-{e}"
+                f"Datei konnte nicht gespeichert werden:\n\n{e}"
             )
 
 
