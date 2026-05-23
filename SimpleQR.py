@@ -266,7 +266,7 @@ class QRCodeGeneratorApp:
 
 def main():
     root = tk.Tk()
-    app = QRCodeGeneratorApp(root)
+    QRCodeGeneratorApp(root)
     root.mainloop()
 
 
