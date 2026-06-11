@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **Dieses Repository ist umgezogen und wird auf GitHub nicht mehr gepflegt.**
+> Die aktuelle Version und die weitere Entwicklung gibt es nur noch auf Codeberg:
+> **https://codeberg.org/Flying-Bolt/SimpleQR**
+
+---
+
 # SimpleQR – QR-Code Generator
 
 Ein schlichter, portabler QR-Code-Generator mit grafischer Oberfläche (GUI), geschrieben in Python.
